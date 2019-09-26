@@ -1,0 +1,200 @@
+.main
+  display flex
+  flex-direction column
+
+  .title-wrapper
+    width: 100%
+    position fixed
+    top 0
+
+    .title
+      flex 1
+      height: 1rem
+      background-color: #f2f2f2
+      display: flex
+      flex-direction: row
+      align-items center
+      justify-content space-between
+
+      .left
+        width: .5rem
+        height: .5rem
+        margin 0 .2rem
+        text-align center
+        display flex
+        align-items center
+
+        .icon-left
+          font-size .4rem
+          line-height .4rem
+
+      .theme
+        text-overflow: ellipsis;
+        white-space: nowrap;
+        overflow: hidden;
+        font-size: .2994rem
+
+      .right
+        width: .5rem
+        height: .5rem
+        margin 0 .3rem
+        text-align center
+
+        .icon-search
+          font-size .5rem
+          line-height .5rem
+          font-weight 700
+
+
+
+  .wrapper
+    width 7.2rem
+    height 80vh
+    padding-top 1rem
+    margin 0 auto
+    overflow-y auto
+
+    .login-wrapper
+      height 1.04rem
+      width 7.2rem
+      padding-left .56rem
+      padding-right .56rem
+      box-sizing border-box
+      margin 0 auto
+      display flex
+      flex-direction row
+      justify-content space-between
+      align-items center
+
+      .left
+        font-size .32rem
+        text-align center
+
+      .right
+        font-size .24rem
+        display flex
+        flex-direction row
+        align-items center
+        text-align center
+        color: rgba(0, 0, 0, .54)
+
+
+    .shopcar-wrapper
+      width: 7.2rem
+      margin 0 auto
+      display: flex
+      flex-direction row
+      justify-content center
+      height: 1.3rem
+      padding .2rem
+      align-items center
+      background-color: #ebebeb
+      box-sizing border-box
+
+      .left
+        display flex
+        flex-direction row
+        align-items center
+        font-size .24rem
+        color rgba(0, 0, 0, .27rem)
+        padding: .3rem
+
+        .icon-shopcarkong
+          font-size .8rem
+          padding-right .2rem
+
+
+      .right
+        font-size .27rem
+        line-height .3rem
+        border 1px solid rgba(0, 0, 0, .15)
+        padding .10rem .20rem
+
+
+
+    .guess-like
+      width 7.2rem
+      height:1.2rem
+      margin 0 auto
+      margin-top .02rem
+
+      .img-wrapper
+        width inherit
+        height inherit
+
+        img
+          width 100%
+          height 100%
+
+
+
+    .item-wrapper
+      width 7.2rem
+      margin:0 auto
+      margin-top .1rem
+      display: flex
+      flex-wrap wrap
+      justify-content space-evenly
+      .item
+        flex 0 1 49.5%
+        display flex
+        flex-direction column
+        align-items center
+        justify-content center
+
+        .img-wrapper
+          width 3.354rem
+          height 3.564rem
+
+          img
+            width 100%
+            height 100%
+
+        .info
+          text-align center
+          font-size .28rem
+          text-overflow ellipsis
+          margin-top .1rem
+
+          .price
+            color #ff6700
+            margin-top .1rem
+            text-align left
+
+
+
+
+
+
+  .shopcar-bottom
+    width 100%
+    height: 1rem
+    display flex
+    position fixed
+    bottom 0
+    background-color: #fff
+
+
+    ul
+      flex 1
+      height inherit
+      list-style none
+      display: flex
+      flex-direction row
+      align-items center
+
+      li
+        flex 1
+        height inherit
+        text-align center
+        font-size .22rem
+        color #999
+        box-sizing border-box
+        padding-top .15rem
+
+        span
+          margin-bottom .1rem
+          display block
+          text-align center
+          font-size .4rem
+

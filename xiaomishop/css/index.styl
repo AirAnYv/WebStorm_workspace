@@ -1,0 +1,324 @@
+.main
+  display flex
+  flex-wrap wrap
+  flex-direction column
+
+  .title
+    flex 1
+    height: .84rem;
+    box-sizing border-box;
+    display: flex;
+    align-items center
+    justify-content space-between
+    background-color: #f2f2f2
+    font-size .22rem
+
+    .header-left
+      flex 1;
+
+      .img-wrapper
+        width .6rem
+        margin 0 .2rem
+
+        img
+          width 100%
+          height 100%
+
+    .header-search
+      flex 5
+
+      .input-wrapper
+        height .55rem
+        border: 1px solid #e5e5e5
+        background-color: #fff
+        border-radius: .04rem
+        box-sizing border-box;
+        display flex;
+        justify-content space-evenly
+        align-items center
+
+        .icon-search
+          font-size .35rem
+          flex 0 0 31px
+          margin 0 5px
+          text-align center
+
+        .input
+          flex 1
+          font-size .35rem
+          color rgba(0, 0, 0, .3)
+
+
+    .header-right
+      flex: 1
+      display flex
+      justify-content center
+      align-items center
+
+      .icon-mine
+        font-size .6rem
+        width .6rem
+        margin 0 .2rem
+
+
+  .nav
+    flex 1
+    height: .577rem
+    box-sizing border-box
+    background-color: #f2f2f2
+
+    ul
+      list-style none
+      display flex
+      flex-wrap nowrap
+      justify-content space-evenly
+      align-items center
+      height 100%
+
+      li
+        flex 1
+        text-align center
+        font-size .26rem
+        color #747474
+
+
+  .top-banner
+    flex 1
+    width: 7.2rem
+    height 3.6rem
+    background-color: #ccc
+    margin 0 auto
+
+    img
+      width 100%
+      height 100%
+
+
+  .spilt
+    flex 1
+    width: 7.2rem
+    margin 0 auto
+    display flex
+    flex-direction column
+
+    .spilt-wrapper
+      display: flex
+      flex-direction row
+      flex-wrap: nowrap
+
+      .img-wrapper
+        flex 1
+        height: 1.52rem
+        background-color: #ccc
+
+        img
+          width: 100%
+          height: 100%
+
+
+  .top-sell
+    width 7.2rem
+    height: 5.08rem
+    margin 0 auto
+
+    .left
+
+      float: left
+
+      .img-wrapper
+
+        width: 3.58rem
+        height: 5.08rem
+
+        img
+          width 100%
+          height: 100%
+
+    .right
+
+      float: right
+
+      .img-wrapper
+
+        width: 3.58rem
+        height: 2.52rem
+
+
+      .img-wrapper:first-child
+
+        margin-bottom .05rem
+
+        img
+          width 100%
+          height: 100%
+
+  .top-sell-1
+    width 7.2rem
+    height: 2.52rem
+    margin: 0 auto
+    margin-top .1rem
+    display flex
+    justify-content space-between
+
+
+    .img-wrapper
+      width: 3.6rem
+      height: 2.52rem
+
+      img
+        width 100%
+        height: 100%
+
+
+  .banner-1
+    width 7.2rem
+    height: 2.8rem
+    margin 0 auto
+    margin-top .1rem
+
+
+    .img-wrapper
+      width inherit
+      height inherit
+
+      img
+        width: 100%
+        height: 100%
+
+  .day-hot-sell
+    width 7.2rem
+    height: 4.4rem
+    margin: 0 auto
+    margin-top .1rem
+
+    .img-wrapper
+      width inherit
+      height inherit
+
+      img
+        width: 100%
+        height: 100%
+
+
+  .hot-sell-item
+    width 7.2rem
+    margin: 0 auto
+    margin-top .1rem
+
+
+    .item-wrapper
+      width: inherit
+      height: 4.888rem
+      display flex
+      flex-direction row
+      justify-content space-evenly
+      margin: 0 auto
+      margin-top .1rem
+
+      .item
+        width 3.44rem
+        height inherit
+
+        .img-wrapper
+          width inherit
+          height 2.8rem
+
+          img
+            width 100%
+            height: 100%
+
+        .info
+          padding .2rem .27rem
+          background-color: #fff;
+          text-align center
+          white-space: nowrap;
+          overflow: hidden;
+          text-overflow: ellipsis;
+          font-family: '微软雅黑'
+
+          .name
+            font-size .28rem
+            color: rgba(0, 0, 0, .87)
+
+          .brief
+            margin-top .06rem
+            font-size .22rem
+            line-height .3rem
+            color rgba(0, 0, 0, .54)
+
+          .price
+            font-size .23rem
+            height 1.5em
+            line-height 1.5em
+            color: #ea625b
+            display flex
+            justify-content center
+            margin-top .1rem
+
+            .new
+              font-size .28rem
+              margin-right .05rem
+
+            .old
+              color rgba(0,0,0,.54)
+              font-size .22rem
+              text-decoration line-through
+              margin-left .1rem
+
+
+
+          .buy
+            width 2rem
+            background-color: #ea625b
+            border-radius .05rem
+            font-weight 700
+            font-size .24rem
+            color #fff
+            margin 0 auto
+            margin-top .1rem
+            padding .16rem 0
+
+
+
+
+  .index-bottom
+    width 100%
+    height: 1rem
+    display flex
+    position fixed
+    bottom 0
+    background-color: #fff
+
+
+    ul
+      flex 1
+      height inherit
+      list-style none
+      display: flex
+      flex-direction row
+      align-items center
+
+      li
+        flex 1
+        height inherit
+        text-align center
+        font-size .22rem
+        color #999
+        box-sizing border-box
+        padding-top .15rem
+
+        div
+          margin-bottom .1rem
+          display block
+          text-align center
+          font-size .4rem
+
+        .icon-home:before
+          color #ff6600
+
+
+
+
+
+
+

@@ -1,0 +1,224 @@
+<!DOCTYPE html>
+<html lang="zh_CN">
+<head>
+    <meta charset="UTF-8">
+    <title>首页e</title>
+    <meta name="viewport"
+          content="width=device-width,user-scalable=no,initial-scale=1.0,minimum-scale=1.0,maximum-scale=1.0"/>
+    <link rel="stylesheet" href="css/reset.min.css">
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/index.css">
+
+    <script type="text/javascript">
+        !function (e) {
+            var t = e.document, n = t.documentElement, i = e.devicePixelRatio || 1,
+                a = "orientationchange" in e ? "orientationchange" : "resize", d = function () {
+                    var e = n.getBoundingClientRect().width || 360;
+                    (1 == i || e > 720) && (e = 720), n.style.fontSize = e / 7.2 + "px"
+                };
+            n.setAttribute("data-dpr", i), t.addEventListener && (e.addEventListener(a, d, !1), "complete" === t.readyState || t.addEventListener("DOMContentLoaded", function () {
+                setTimeout(d)
+            }, !1))
+        }(window)
+    </script>
+
+</head>
+<body>
+
+<div class="main">
+    <div class="title">
+        <div class="header-left">
+            <div class="img-wrapper">
+                <img src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAEwAAAAyCAYAAAD2vz2aAAAAGXRFWHRTb2Z0d2FyZQBBZG9iZSBJbWFnZVJlYWR5ccllPAAAAyhpVFh0WE1MOmNvbS5hZG9iZS54bXAAAAAAADw/eHBhY2tldCBiZWdpbj0i77u/IiBpZD0iVzVNME1wQ2VoaUh6cmVTek5UY3prYzlkIj8+IDx4OnhtcG1ldGEgeG1sbnM6eD0iYWRvYmU6bnM6bWV0YS8iIHg6eG1wdGs9IkFkb2JlIFhNUCBDb3JlIDUuNi1jMTM4IDc5LjE1OTgyNCwgMjAxNi8wOS8xNC0wMTowOTowMSAgICAgICAgIj4gPHJkZjpSREYgeG1sbnM6cmRmPSJodHRwOi8vd3d3LnczLm9yZy8xOTk5LzAyLzIyLXJkZi1zeW50YXgtbnMjIj4gPHJkZjpEZXNjcmlwdGlvbiByZGY6YWJvdXQ9IiIgeG1sbnM6eG1wPSJodHRwOi8vbnMuYWRvYmUuY29tL3hhcC8xLjAvIiB4bWxuczp4bXBNTT0iaHR0cDovL25zLmFkb2JlLmNvbS94YXAvMS4wL21tLyIgeG1sbnM6c3RSZWY9Imh0dHA6Ly9ucy5hZG9iZS5jb20veGFwLzEuMC9zVHlwZS9SZXNvdXJjZVJlZiMiIHhtcDpDcmVhdG9yVG9vbD0iQWRvYmUgUGhvdG9zaG9wIENDIDIwMTcgKE1hY2ludG9zaCkiIHhtcE1NOkluc3RhbmNlSUQ9InhtcC5paWQ6MjQ2OUE2MkU0RTQ4MTFFNzgxOTZBRDJFQjk4Qjk0NjQiIHhtcE1NOkRvY3VtZW50SUQ9InhtcC5kaWQ6MjQ2OUE2MkY0RTQ4MTFFNzgxOTZBRDJFQjk4Qjk0NjQiPiA8eG1wTU06RGVyaXZlZEZyb20gc3RSZWY6aW5zdGFuY2VJRD0ieG1wLmlpZDpCOUQ0QkM2RjREQ0MxMUU3ODE5NkFEMkVCOThCOTQ2NCIgc3RSZWY6ZG9jdW1lbnRJRD0ieG1wLmRpZDpCOUQ0QkM3MDREQ0MxMUU3ODE5NkFEMkVCOThCOTQ2NCIvPiA8L3JkZjpEZXNjcmlwdGlvbj4gPC9yZGY6UkRGPiA8L3g6eG1wbWV0YT4gPD94cGFja2V0IGVuZD0iciI/PiL8gcIAAAF1SURBVHja7Ju/LwRRFEbf+FVsQ0dBdJKNSksUSqVCr6AhKxGVwn+gVUpQEI1So5XoZUOhEbKMDiESIeOTzPbvzpoxz5wvOd3duzsn++7cSXajZMU9OOeGXPmTiHtxIU7FoYh/oe+ZmPKsjSMJS1yY+RS7YrNDcTdi1Le4y4WbHrEorsRcUW8asrB2BsSxWEeYLVtiCWG2bIsJhPmnV+zkeV3/TZhLv2HzCLNlFWG2TIqRvHYZa97FR84XXEvnUSeZEft/LexZDIvXnIVFop6uCQ3RnaHHeBmO5FMBstrPjZdiTUyLlww9Bqs6w87FcobX9Vd56B+IZoZjXVlhP0f0qAwfJKS1ookw+w0HYaEFYQVs+j4ZE7Oed6o3sVfA00OphW2IBUN9S5xU+Uhad6A+ZhhDnyAMYQhDGMIQRhCGMIQhDGEEYQhDGMIQhjCCMIQhDGEIIwhDWFHCLP81vPOsezT0/BK3nj0tP1i59qxrGXrG3wIMAK5yNsqRAjAyAAAAAElFTkSuQmCC"
+                     alt="">
+            </div>
+        </div>
+        <div class="header-search">
+            <div class="input-wrapper">
+                <div class="icon-search"></div>
+                <div class="input">搜索商品名称</div>
+            </div>
+        </div>
+        <div class="header-right">
+            <div class="icon-mine"></div>
+        </div>
+    </div>
+
+    <div class="nav">
+        <ul>
+            <li>推荐</li>
+            <li>手机</li>
+            <li>智能</li>
+            <li>电视</li>
+            <li>笔记本</li>
+            <li>家电</li>
+            <li class="icon-down"></li>
+        </ul>
+    </div>
+
+    <div class="top-banner">
+        <img src="//cdn.cnbj1.fds.api.mi-img.com/mi-mall/9d20759043cc6d5c4e3a6c9adffd2666.jpg?thumb=1&w=720&h=360"
+             alt="">
+    </div>
+
+    <div class="spilt">
+        <div class="spilt-wrapper">
+            <div class="img-wrapper"><img src="//i8.mifile.cn/v1/a1/290976f3-acac-8a62-7e5c-a19985a6414b.webp" alt="">
+            </div>
+            <div class="img-wrapper"><img src="//i8.mifile.cn/v1/a1/eb5024fe-dfe3-6e53-3e18-675bef5fa06e.webp" alt="">
+            </div>
+            <div class="img-wrapper"><img src="//i8.mifile.cn/v1/a1/26a132d9-c5ae-8a30-2705-f861e2e9f496.webp" alt="">
+            </div>
+            <div class="img-wrapper"><img src="//i8.mifile.cn/v1/a1/e8bc849a-0a3b-21a0-6810-7da3a3903dee.webp" alt="">
+            </div>
+            <div class="img-wrapper"><img
+                    src="//cdn.cnbj1.fds.api.mi-img.com/mi-mall/fc8c791e7df386798f49876b1714323f.png?thumb=1&w=144&h=152"
+                    alt=""></div>
+
+        </div>
+        <div class="spilt-wrapper">
+            <div class="img-wrapper"><img
+                    src="//cdn.cnbj1.fds.api.mi-img.com/mi-mall/cb65daec7ef7b52cc785f88f78efba37.png?thumb=1&w=144&h=152"
+                    alt=""></div>
+            <div class="img-wrapper"><img
+                    src="//cdn.cnbj1.fds.api.mi-img.com/mi-mall/9ea68dee2bfa0e55a82236b0d968e975.png?thumb=1&w=144&h=152"
+                    alt=""></div>
+            <div class="img-wrapper"><img
+                    src="//cdn.cnbj1.fds.api.mi-img.com/mi-mall/1b92680601206b48b885d883c23b83e2.png?thumb=1&w=144&h=152"
+                    alt=""></div>
+            <div class="img-wrapper"><img
+                    src="//cdn.cnbj1.fds.api.mi-img.com/mi-mall/13da888d2d77bbe385d462b8d3b8c894.jpg?thumb=1&w=144&h=152"
+                    alt=""></div>
+            <div class="img-wrapper"><img
+                    src="//cdn.cnbj1.fds.api.mi-img.com/mi-mall/bc1c677a6e10e42d00fb0a063662fbf9.png?thumb=1&w=144&h=152"
+                    alt=""></div>
+        </div>
+
+    </div>
+
+    <div class="top-sell">
+
+        <div class="left">
+            <div class="img-wrapper">
+                <img src="//cdn.cnbj1.fds.api.mi-img.com/mi-mall/3ba656705b4f16541e4b04e30cbb3532.jpg?thumb=1&w=358&h=508"
+                     alt="">
+            </div>
+        </div>
+        <div class="right">
+            <div class="top">
+                <div class="img-wrapper">
+                    <img src="//cdn.cnbj1.fds.api.mi-img.com/mi-mall/b6a8b7002926ba52169da9aeb1ba8eb8.jpg?thumb=1&w=358&h=252"
+                         alt="">
+                </div>
+            </div>
+            <div class="down">
+                <div class="img-wrapper">
+                    <img src="//cdn.cnbj1.fds.api.mi-img.com/mi-mall/d4f7a4e04dad087156f166201c7d8cbc.jpg?thumb=1&w=358&h=252"
+                         alt="">
+                </div>
+            </div>
+        </div>
+
+    </div>
+
+    <div class="top-sell-1">
+        <div class="img-wrapper">
+            <img src="//i8.mifile.cn/v1/a1/139eeb1a-95ac-d278-4b1e-e2fb05798908.webp" alt="">
+        </div>
+        <div class="img-wrapper">
+            <img src="//i8.mifile.cn/v1/a1/1074a94c-0594-5ddd-7e53-2667d27e8e36.webp" alt="">
+        </div>
+
+    </div>
+
+    <div class="banner-1">
+        <div class="img-wrapper">
+            <img src="//cdn.cnbj1.fds.api.mi-img.com/mi-mall/3b014cab3b01c52405c6dcde20856a83.jpg?thumb=1&w=720&h=280"
+                 alt="">
+        </div>
+    </div>
+
+    <div class="day-hot-sell">
+        <div class="img-wrapper">
+            <img src="//cdn.cnbj1.fds.api.mi-img.com/mi-mall/a4a946b598b6b7080b55772810ea3c44.jpg?thumb=1&w=720&h=440"
+                 alt="">
+        </div>
+    </div>
+
+    <div class="hot-sell-item">
+        <div class="item-wrapper">
+            <div class="item">
+                <div class="img-wrapper">
+                    <img src="//i8.mifile.cn/v1/a1/b7aa0b1e-90bb-725d-fbd1-1bb26a051606.webp" alt="">
+                </div>
+                <div class="info">
+                    <p class="name">小米MIX 2S</p>
+                    <p class="brief">四面曲面机身 晓龙845</p>
+                    <div class="price">
+                        <div class="new">￥1799</div>起
+                        <div class="old">￥2999</div>
+                    </div>
+                    <p class="buy">立即购买</p>
+                </div>
+            </div>
+            <div class="item">
+                <div class="img-wrapper">
+                    <img src="//i8.mifile.cn/v1/a1/b7aa0b1e-90bb-725d-fbd1-1bb26a051606.webp" alt="">
+                </div>
+                <div class="info">
+                    <p class="name">小米MIX 2S</p>
+                    <p class="brief">四面曲面机身 晓龙845</p>
+                    <div class="price">
+                        <div class="new">￥1799</div>起
+                        <div class="old">￥2999</div>
+                    </div>
+                    <p class="buy">立即购买</p>
+                </div>
+            </div>
+        </div>
+        <div class="item-wrapper">
+            <div class="item">
+                <div class="img-wrapper">
+                    <img src="//i8.mifile.cn/v1/a1/b7aa0b1e-90bb-725d-fbd1-1bb26a051606.webp" alt="">
+                </div>
+                <div class="info">
+                    <p class="name">小米MIX 2S</p>
+                    <p class="brief">四面曲面机身 晓龙845</p>
+                    <div class="price">
+                        <div class="new">￥1799</div>起
+                        <div class="old">￥2999</div>
+                    </div>
+                    <p class="buy">立即购买</p>
+                </div>
+            </div>
+            <div class="item">
+                <div class="img-wrapper">
+                    <img src="//i8.mifile.cn/v1/a1/b7aa0b1e-90bb-725d-fbd1-1bb26a051606.webp" alt="">
+                </div>
+                <div class="info">
+                    <p class="name">小米MIX 2S</p>
+                    <p class="brief">四面曲面机身 晓龙845</p>
+                    <div class="price">
+                        <div class="new">￥1799</div>起
+                        <div class="old">￥2999</div>
+                    </div>
+                    <p class="buy">立即购买</p>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div class="index-bottom">
+        <ul class="item-wrapper">
+            <li class="item" style="color: #ff6700;"><div class="icon-home"></div>首页</li>
+            <li class="item"><div class="icon-spilt"></div>分类</li>
+            <li class="item"><div class="icon-shopcar"></div>购物车</li>
+            <li class="item"><div class="icon-mine"></div>我的</li>
+        </ul>
+    </div>
+
+
+</div>
+
+</body>
+</html>
